@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 
 import Form from 'react-bootstrap/Form';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Badge } from 'react-bootstrap';
+
 
 function NavScrollExample() {
   return (
@@ -28,6 +30,7 @@ function NavScrollExample() {
     </Form>
     <div style={{marginLeft:'70px'}}>
       <BsBag color='red' size='2.5rem'/>
+      <Badge bg='danger' pill className='ms-1'>0</Badge>
     </div>
   </div>
 </div>
