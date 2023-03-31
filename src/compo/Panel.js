@@ -22,9 +22,10 @@ function Panel() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className=" justify-content-center"
               style={{
-                display: 'flex',
+               display: 'flex',
                 justifyContent: 'center',
                 alignItems: 'center',
+                
               }}
               onClick={() => setExpanded(false)}
               activeKey=""
@@ -37,7 +38,7 @@ function Panel() {
               <span className="separator">|</span>
               <Nav.Link href="#home">BEST SELLER</Nav.Link>
               <span className="separator">|</span>
-              <Nav.Link href="#home" style={{color:'red'}}>CLEARANCE</Nav.Link>
+              <Nav.Link href="#home" style={{color:'red' }}>CLEARANCE</Nav.Link>
               <span className="separator">|</span>
 
               <Nav.Link href="#home" style={{color:'red'}}>
@@ -56,6 +57,7 @@ function Panel() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
+     
     </div>
   );
 }

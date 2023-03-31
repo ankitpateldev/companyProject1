@@ -40,7 +40,7 @@ a {
   text-decoration: none;
 }
 .nav-link {
-  color: #231f20;
+  /* color: #231f20; */
   margin-right: 20px;
 }
 .panel {
@@ -58,7 +58,7 @@ a {
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: #fff;
-  background-color: #212529;
+  background-color: #212529; 
   border-radius: 5px;
 }
 
@@ -71,5 +71,30 @@ a {
   .logo-img {
     max-width: 100px;
     max-height: 75px;
+  }
+}
+.Java span {
+  display: block;
+  text-align: center;
+}
+#basic-nav-dropdown {
+  color: white !important;
+}
+@media (max-width: 768px) {
+  .ctl-main-head {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .ctl-main-head {
+    padding: 10px 5px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .ctl-main-head {
+    padding: 10px 3px;
+    font-size: 11px;
   }
 }
