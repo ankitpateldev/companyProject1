@@ -149,3 +149,10 @@ li::before {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+/* HeyChooseUs */
+.icon-container:hover  .icon {
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); */
+color:red !important;
+}

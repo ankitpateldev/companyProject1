@@ -22,7 +22,11 @@ function MyNavbar() {
   }, []);
 
   return (
-    <Navbar bg="primary" variant="light" className={`sticky-top ${isTop ? 'at-top' : ''}`}>
+    <Navbar bg="primary" variant="light" expand="md"  className={`sticky-top ${isTop ? 'at-top' : ''}`}>
+ 
+ <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+
       <Nav className="mx-auto justify-content-center">
         <NavDropdown
           title="Pop Up Tents"
@@ -39,7 +43,12 @@ function MyNavbar() {
           </div>
         </NavDropdown>
         <Nav.Link href="#features" className="text-white">Features</Nav.Link>
+        <Nav.Link href="#features" className="text-white">Features</Nav.Link>
+        <Nav.Link href="#features" className="text-white">Features</Nav.Link>
+        <Nav.Link href="#features" className="text-white">Features</Nav.Link>
       </Nav>
+    
+      </Navbar.Collapse>
       {!isTop &&  <BsBag color='red' size='2.5rem'/>}
     </Navbar>
   );
