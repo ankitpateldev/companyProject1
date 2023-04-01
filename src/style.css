@@ -118,3 +118,34 @@ a {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+li {
+  position: relative; /* make the list item position relative */
+  padding-left: 10px !important; /* add some padding on the left side */
+  margin-bottom: 10px; /* add some margin between list items */
+}
+li::before {
+  /* create the arrow using ::before pseudo-element */
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%); /* center the arrow vertically */
+  border-top: 8px solid transparent; /* create the arrow using borders */
+  border-bottom: 8px solid transparent;
+  border-left: 8px solid white; /* adjust the color and size of the arrow */
+  
+}
+.menu-hr {
+  height: 1px;
+  border: none;
+  background-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

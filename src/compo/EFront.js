@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-function Front() {
+function EFront() {
   return (
     <div>
     <div className="container-fluid" style={{ backgroundColor: 'blue' }}>
@@ -44,4 +44,4 @@ function Front() {
   );
 }
 
-export default Front;
+export default EFront;

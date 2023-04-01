@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 
-function Panel() {
+function BPanel() {
   /* achieve the menu for we use useState*/
   const [inc , setInc]= useState(false) /*  initial state value false */
 
@@ -62,4 +62,4 @@ function Panel() {
   );
 }
 
-export default Panel;
+export default BPanel;
