@@ -42,13 +42,17 @@ function MyNavbar() {
             </a>
           </div>
         </NavDropdown>
+        <Nav.Link href="#features" className="text-white">CUSTOM FLAGS
+</Nav.Link>
         <Nav.Link href="#features" className="text-white">Features</Nav.Link>
-        <Nav.Link href="#features" className="text-white">Features</Nav.Link>
-        <Nav.Link href="#features" className="text-white">Features</Nav.Link>
-        <Nav.Link href="#features" className="text-white">Features</Nav.Link>
-      </Nav>
+        <Nav.Link href="#features" className="text-white">CUSTOM TABLECLOTHS</Nav.Link>
+        <Nav.Link href="#features" className="text-white">BANNER STANDS</Nav.Link>
+        <Nav.Link href="#features" className="text-white">TRADE SHOW DISPLAYS</Nav.Link>
+        <Nav.Link href="#features" className="text-white"> TRADE SHOW & EVENTS</Nav.Link>
+        <Nav.Link href="#features" className="text-white">  OFFER ZONE </Nav.Link>
+ </Nav>
     
-      </Navbar.Collapse>
+      </Navbar.Collapse> 
       {!isTop &&  <BsBag color='red' size='2.5rem'/>}
     </Navbar>
   );
