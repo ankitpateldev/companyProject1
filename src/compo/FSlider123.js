@@ -29,7 +29,7 @@ export default class Responsive extends Component {
       dots: false,
       infinite: true,
       speed: 400,
-      slidesToShow: 4,
+      slidesToShow: 5,
       slidesToScroll: 4,
       initialSlide: 1,
       responsive: [
@@ -61,7 +61,7 @@ export default class Responsive extends Component {
     };
     return (
       <div>
-        <h2> Responsive </h2>
+        <h2> Best Seller</h2>
         <Slider {...settings}>
         {Data.Tent.map((value) => (
             <div
@@ -78,7 +78,13 @@ export default class Responsive extends Component {
   <h5 className="card-title">{value.description}</h5>
   <p className="card-text author">{value.author}</p>
   <div className="d-flex justify-content-between align-items-center">
-    <h5>₹{value.price}</h5>
+    <h5>${value.price}</h5>
+    <Button
+      style={styles.button}
+     
+    >
+     Add to Cart
+    </Button>
   </div>
 </div>
 </div>
